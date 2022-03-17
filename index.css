@@ -40,10 +40,9 @@
 #home{
 	display: flex;
 	background: url("./images/banner.jpg");
-	min-height: 100vh;
 	background-position: center;
 	background-size: cover;
-	height: 800px;
+	height: 80vh;
 	width: 100%;
 	justify-content: center;
 	align-items: center;
@@ -80,32 +79,6 @@
 	color: black;
 	box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
 	font-weight: bold;
-}
-
-/*About Me*/
-#about{
-	display: flex;
-	flex-direction: column;
-	box-sizing: border-box;
-	margin-bottom: 50px;
-}
-#pic{
-	display: flex;
-}
-#pic img{
-	width: 400px;
-	height: 400px;
-	margin-left: 20px;
-}
-#intro{
-	display: flex;
-	flex-direction: column;
-	text-align: justify;
-	padding: 10px;
-}
-#intro h2{
-	font-size: 2rem;
-	margin-bottom: 20px;
 }
 
 #gmap_canvas {
